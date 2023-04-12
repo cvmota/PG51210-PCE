@@ -1,0 +1,26 @@
+# criar a pasta ReactNM na raiz do github
+
+npx create-react-app client
+
+cd client
+
+npm i react-router-dom localforage match-sorter sort-by
+
+# https://mui.com/material-ui/getting-started/installation/
+# Install Material UI, the world's most popular React UI framework.
+npm i @mui/material @emotion/react @emotion/styled @material-ui/core
+
+# https://www.npmjs.com/package/react-redux
+npm i react-redux
+
+npm i axios
+
+# =====================================
+# raiz do github/NodeMongo
+# isntalar o cors
+npm i cors
+
+# No app.js
+var cors = require('cors')
+
+app.use(cors())
